@@ -9,12 +9,10 @@ function freestyleReducer(state = { score: 0 }, action) {
     case ADD_POINTS:
       socket.emit('click', { id: 3 })
       return state
-    break;
     case RECEIVE:
       const newState = {...state}
       newState.score = action.data.score
       return newState
-    break;
     default:
       return state
   }
