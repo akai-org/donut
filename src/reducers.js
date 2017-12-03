@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
 import freestyle from './reducers/FreestyleReducer'
 
-const todoApp = combineReducers({
+const donutClickerApp = combineReducers({
   freestyle
 })
 
-export default todoApp
+export default donutClickerApp
