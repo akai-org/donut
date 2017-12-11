@@ -1,0 +1,11 @@
+.LandingPage .wrap-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.LandingPage a {
+    margin-bottom: 15px;
+}
